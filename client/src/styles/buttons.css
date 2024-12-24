@@ -10,7 +10,7 @@ input,
 
 
 button,
-[type=submit]{
+[type=button]{
     margin-top: 1.5rem;
     width: 21.875rem;
     padding: 1rem;
@@ -22,7 +22,7 @@ button,
 }
 
 button,
-[type=submit]:hover {
+[type=button]:hover {
     background-color: #343a40;
     color: whitesmoke;
     cursor: pointer;

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Header } from '../Header/Header';
 
 export const LoginPage = () => {
     const [email, setEmail] = useState('');

@@ -1,0 +1,43 @@
+.task-manager {
+    max-width: 31.25rem;
+    margin: auto;
+    text-align: center;
+  }
+
+.task-manager h2 {
+    margin-bottom: 2rem;
+}
+  
+  .add-task input {
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 0.625rem;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task {
+    padding: 1rem;
+    display: flex;
+    background: linear-gradient(to right, #f5ebe0, #e3d5ca) ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3125rem 0;
+    gap: 0.3125rem;
+    border: 1px solid black;
+    border-radius: 0.625rem;
+  }
+  
+  .task button {
+    margin-left: 0.3125rem;
+  }
+
+  .task span{
+    margin: 1rem;
+    text-align: center;
+  }
+  

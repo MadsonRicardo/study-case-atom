@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import TaskManager from '../TaskManager/TaskManager';
 
-const Dashboard = () => {
+function Dashboard() {
+
     return (
         <div className='container'>
             <h1>Bem-vindo ao Atomo!</h1>
-            <p>Você está autenticado.</p>
+            <TaskManager />
         </div>
-        
     );
-};
+}
 
 export default Dashboard;
