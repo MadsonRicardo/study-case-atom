@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #fdf0d5, #e0e1dd);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+

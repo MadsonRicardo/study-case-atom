@@ -1,0 +1,29 @@
+input,
+[type=email],
+[type=password] {
+
+    width: 18.75rem;
+    border: 1px solid transparent;
+    border-radius: 0.3125rem;
+    padding: 0.5rem;
+}
+
+
+button,
+[type=submit]{
+    margin-top: 1.5rem;
+    width: 21.875rem;
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.3125rem;
+    background-color: black;
+    color: white;
+
+}
+
+button,
+[type=submit]:hover {
+    background-color: #343a40;
+    color: whitesmoke;
+    cursor: pointer;
+}
